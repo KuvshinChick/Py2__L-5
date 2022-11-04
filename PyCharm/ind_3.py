@@ -7,10 +7,11 @@ if __name__ == "__main__":
     k = int(input("Введите делитель k: "))
     i = (10 ** n) - 1
     s = 0
+    f = 10 ** (n-1)
 
     # Divisibility check cycle
-    while (i >= (10 ** (n-1))):
-        if(i % k == 0):
+    while i >= f:
+        if i % k == 0:
             s += i
         i -= 1
     print("Сумма всех чисел кратных k:")

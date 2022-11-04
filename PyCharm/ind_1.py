@@ -2,12 +2,23 @@
 # -*- coding: utf-8 -*-
 
 if __name__ == "__main__":
-
     # List of months & 31_days_lict
     days31_list = [1, 3, 5, 7, 8, 10, 12]
-    month_list = ['January', 'February', 'March', 'April',
-                  'May', 'June', 'July', 'August', 'September',
-                  'October', 'November', 'December']
+    month_list = [
+        'January',
+        'February',
+        'March',
+        'April',
+        'May',
+        'June',
+        'July',
+        'August',
+        'September',
+        'October',
+        'November',
+        'December'
+    ]
+
     # Input number of month
     month_num = int(input("Enter month number: "))
 
